@@ -1,12 +1,13 @@
 {
-  "name": "blogap",
+  "name": "blogapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This a Blog ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
+  "author": "Arun Kayathi",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.0",
