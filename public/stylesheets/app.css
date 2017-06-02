@@ -1,0 +1,18 @@
+i.icon{
+    font-size:2em;
+}
+.right.chevron.icon
+{
+    font-size:10px;
+}
+.container.main{
+    margin-top:7em;
+}
+#delete{
+   
+    width:50%;
+   
+}
+.ui.inverted.red.button{
+    width:100%;
+}
