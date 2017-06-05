@@ -9,7 +9,7 @@ app.set("view engine","ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(expressSanitizer());
-mongoose.connect("mongodb://localhost/blog");
+mongoose.connect("mongodb://arun:arun.vfg50@ds163301.mlab.com:63301/blog");
 var blogSchema=new mongoose.Schema({
     title:String,
     image:String,
